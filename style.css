@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+
+  margin: 0;
+}
+
+.page {
+  margin: 0 auto;
+  width: 1016px;
+  padding-top: 65px;
+}
+
+.page nav {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.page nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.page nav ul li a {
+  text-decoration: none;
+  color:#1F1534 ;
+  opacity: 0.5;
+}
+
+.page nav ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+
+main section {
+    margin-top: 0;
+}
+
+main section h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 49px;
+    color: #1f1534;
+    line-height: 56px;
+    margin-bottom: 35px;
+}
+
+main section h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+main section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  display: flex;
+  color: white;
+  background-color: #69B99D;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: #36ad83;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color:#000;
+}
+
+footer img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
